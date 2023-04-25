@@ -16,7 +16,7 @@ class Menu {
 						'nome' => 'Categorias',
 						'rota' => '/categorias'
 					],
-					
+
 					[
 						'nome' => 'Produtos',
 						'rota' => '/produtos'
@@ -193,7 +193,7 @@ class Menu {
 					]
 				]
 			],
-			
+
 			[
 				'titulo' => 'CT-e',
 				'icone' => $this->getIcone('CT-e'),
@@ -332,68 +332,8 @@ class Menu {
 						'rota' => '/ibpt'
 					]
 				]
-			],
-			[
-				'titulo' => 'Ecommerce',
-				'icone' => $this->getIcone('Ecommerce'),
-				'subs' => [
-					[
-						'nome' => 'Categorias',
-						'rota' => '/categoriaEcommerce'
-					],
-					[
-						'nome' => 'Produtos',
-						'rota' => '/produtoEcommerce'
-					],
-					[
-						'nome' => 'Pedidos',
-						'rota' => '/pedidosEcommerce'
-					],
-					[
-						'nome' => 'Configuração',
-						'rota' => '/configEcommerce'
-					],
-					[
-						'nome' => 'Carrossel',
-						'rota' => '/carrosselEcommerce'
-					],
-					[
-						'nome' => 'Blog Autor',
-						'rota' => '/autorPost'
-					],
-
-					[
-						'nome' => 'Blog Categoria',
-						'rota' => '/categoriaPosts'
-					],
-
-					[
-						'nome' => 'Blog Post',
-						'rota' => '/postBlog'
-					],
-
-					[
-						'nome' => 'Contatos',
-						'rota' => '/contatoEcommerce'
-					],
-
-					[
-						'nome' => 'Informativo Cliente',
-						'rota' => '/informativoEcommerce'
-					],
-
-					[
-						'nome' => 'Clientes',
-						'rota' => '/clienteEcommerce'
-					],
-					
-					[
-						'nome' => 'Ver site',
-						'rota' => '/configEcommerce/verSite',
-						'target' => true
-					]
-				]
 			]
+
 		];
 	}
 
@@ -592,7 +532,7 @@ class Menu {
 		$usuario = Usuario::
 		where('id', $value['id'])
 		->first();
-		
+
 		// $permissoesAtivas = json_decode($usuario->empresa->permissao);
 
 
