@@ -41,7 +41,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="shortcut icon" href="/../../imgs/slym.png" />
+	<link rel="shortcut icon" href="/../../imgs/icone_rop.png" />
 
 	<script>
 		(function(h, o, t, j, a, r) {
@@ -185,7 +185,7 @@
 				</div>
 				<!--end::Title-->
 				<!--begin::Image-->
-				<div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url(/imgs/login2.png);"></div>
+				<div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url(/imgs/glass.png);"></div>
 				<!--end::Image-->
 			</div>
 			<!--end::Content-->

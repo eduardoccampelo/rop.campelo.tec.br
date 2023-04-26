@@ -63,7 +63,7 @@
 
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="shortcut icon" href="/../../imgs/slym.png" />
+	<link rel="shortcut icon" href="/../../imgs/icone_rop.png" />
 	<link rel="stylesheet" href="/css/whatsapp.css">
 
 	<script>
@@ -128,7 +128,7 @@
 	<div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
 
 		<a href="/graficos">
-			<img width="100" alt="Logo" src="/../../imgs/slym.png" />
+			<img width="100" alt="Logo" src="/../../imgs/icone_rop.png" />
 		</a>
 		<div class="d-flex align-items-center">
 			<!--begin::Aside Mobile Toggle-->
@@ -165,7 +165,7 @@
 				<div class="brand flex-column-auto" id="kt_brand">
 
 					<a href="/graficos" class="brand-logo">
-						<img width="100" alt="Logo" src="../../imgs/slym.png" />
+						<img width="100" alt="Logo" src="../../imgs/icone_rop.png" />
 					</a>
 
 					<button class="brand-toggle btn btn-sm px-0 btn-hide recolhe-tour" id="kt_aside_toggle">

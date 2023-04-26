@@ -41,8 +41,8 @@
 
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="shortcut icon" href="/../../imgs/slym.png" />
-	
+	<link rel="shortcut icon" href="/../../imgs/icone_rop.png" />
+
 	<script>
 		(function(h, o, t, j, a, r) {
 			h.hj = h.hj || function() {
