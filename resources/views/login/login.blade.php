@@ -42,7 +42,7 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="shortcut icon" href="/../../imgs/slym.png" />
-	
+
 	<script>
 		(function(h, o, t, j, a, r) {
 			h.hj = h.hj || function() {
@@ -102,7 +102,7 @@
 				<div class="d-flex flex-column-fluid flex-column justify-content-between py-9 px-7 py-lg-13 px-lg-35">
 					<!--begin::Logo-->
 					<a href="#" class="text-center pt-2">
-						<img src="/imgs/slym2.png" class="max-h-200px" alt="" />
+						<img src="/imgs/rop.png" class="max-h-200px" alt="" />
 					</a>
 					<!--end::Logo-->
 					<!--begin::Aside body-->

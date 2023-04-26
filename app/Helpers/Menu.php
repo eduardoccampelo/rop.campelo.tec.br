@@ -242,67 +242,7 @@ class Menu {
 				]
 			],
 
-			[
-				'titulo' => 'Delivery',
-				'icone' => $this->getIcone('Delivery'),
-				'subs' => [
-					[
-						'nome' => 'Categorias',
-						'rota' => '/deliveryCategoria'
-					],
-					[
-						'nome' => 'Produtos',
-						'rota' => '/deliveryProduto'
-					],
-					[
-						'nome' => 'Adicionais',
-						'rota' => '/deliveryComplemento'
-					],
-					[
-						'nome' => 'Bairros',
-						'rota' => '/bairrosDelivery'
-					],
-					[
-						'nome' => 'Pedidos de Delivery',
-						'rota' => '/pedidosDelivery'
-					],
 
-
-
-					[
-						'nome' => 'Frente de Pedido',
-						'rota' => '/pedidosDelivery/frente'
-					],
-					[
-						'nome' => 'Configuração',
-						'rota' => '/configDelivery'
-					],
-					[
-						'nome' => 'Funcionamento',
-						'rota' => '/funcionamentoDelivery'
-					],
-					[
-						'nome' => 'Push',
-						'rota' => '/push'
-					],
-					[
-						'nome' => 'Tamanhos de Pizza',
-						'rota' => '/tamanhosPizza'
-					],
-					[
-						'nome' => 'Motoboy',
-						'rota' => '/motoboys'
-					],
-					// [
-					// 	'nome' => 'Pedidos de Delivery',
-					// 	'rota' => '/pedidosDelivery'
-					// ],
-					[
-						'nome' => 'Códigos Promocionais',
-						'rota' => '/codigoDesconto'
-					]
-				]
-			],
 			[
 				'titulo' => 'Configurações',
 				'icone' => $this->getIcone('Configurações'),

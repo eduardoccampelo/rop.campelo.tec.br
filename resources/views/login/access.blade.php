@@ -4,7 +4,7 @@
 
 
 <head>
-  
+
   <title>Login Page</title>
 
   <!-- Favicons-->
@@ -29,12 +29,12 @@
 </head>
 
 <body class="">
-  
+
   <div class="container">
     <div class="center-align">
-     
+
       @if(!session()->has('message'))
-      <img style="height: 160px;" src="../imgs/slym.png">
+      <img style="height: 160px;" src="../imgs/rop.png">
       @else
       <img style="height: 220px;" src="https://image.dhgate.com/0x0s/f2-albu-g2-M00-E4-69-rBVaG1oqYk2AVdlNAAEhoQ9wxGI364.jpg/decalque-do-carro-m-scara-an-nima-homem-sexy.jpg">
       <div class="{{ session('color') }} lighten-1">
@@ -48,9 +48,9 @@
       </div>
       @endif
 
-      
+
       <form class="form-signin" method="post" action="/login/request">
-        
+
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div class="row">
           <div class="input-field col s6 offset-s3">
@@ -62,7 +62,7 @@
 
         <div class="row">
           <div class="input-field col s6 offset-s3">
-            
+
             <input class="validate" type="password" name="senha">
             <label>Senha</label>
 

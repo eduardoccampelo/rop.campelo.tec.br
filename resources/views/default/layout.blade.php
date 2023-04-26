@@ -65,7 +65,7 @@
 
 	<link rel="shortcut icon" href="/../../imgs/slym.png" />
 	<link rel="stylesheet" href="/css/whatsapp.css">
-	
+
 	<script>
 		(function(h, o, t, j, a, r) {
 			h.hj = h.hj || function() {
@@ -198,7 +198,7 @@
 								<a href="javascript:;" class="menu-link menu-toggle" id="{{$m['titulo']}}-tour">
 									{!! $m['icone'] !!}
 									<span class="menu-text">{{$m['titulo']}}</span>
-									
+
 								</a>
 								<div class="menu-submenu" style="" kt-hidden-height="320">
 									<i class="menu-arrow"></i>
@@ -213,7 +213,7 @@
 
 										@if(!isset($i['rota_ativa']) && $i['rota'] != '')
 										<li class="menu-item menu-item-submenu @if($uri == $i['rota']) menu-item-active @endif" aria-haspopup="true" data-menu-toggle="hover">
-											
+
 											<a @isset($i['target']) target="_blank" @endisset href="{{$i['rota']}}" class="menu-link menu-">
 												<i class="menu-bullet menu-bullet-line">
 													<span>
@@ -247,25 +247,6 @@
 							<div id="kt_header_menu" class="header-menu header-menu-mobile  header-menu-layout-default ">
 								<ul class="menu-nav ">
 									<ul class="menu-nav">
-										@if(getenv('PEDIDO_LOCAL'))
-										<li class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
-
-											<a href="/pedidos" class="label label-xl label-inline @if($tema == 1) label-light-primary @else label-primary @endif">
-												Pedidos Mesa/Comanda: <strong id="pedidos-aberto">x0</strong>
-											</a>
-
-										</li>
-										@endif
-
-										@if(getenv('DELIVERY'))
-
-										<li class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
-
-											<a href="/pedidosDelivery" class="label label-xl label-inline  @if($tema == 1) label-light-success @else label-success @endif ">
-												Pedidos Delivery: <strong id="pedidos-aberto-delivery">x0</strong>
-											</a>
-										</li>
-										@endif
 
 										<li id="ambiente-tour" class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
 											<a href="/configNF" class="label label-xl label-inline @if($tema == 1) label-light-info @else label-info @endif">
@@ -487,7 +468,7 @@
 											<!--begin::Tabpane-->
 											<div class="tab-pane" id="topbar_notifications_logs" role="tabpanel">
 												<!--begin::Nav-->
-												<div class="d-flex flex-center text-center text-muted min-h-200px">All caught up! 
+												<div class="d-flex flex-center text-center text-muted min-h-200px">All caught up!
 													<br>No new notifications.</div>
 													<!--end::Nav-->
 												</div>
@@ -992,17 +973,17 @@
 
 		<script type="text/javascript" src="/js/nicEdit-latest.js"></script>
 
-		
+
 		<script type="text/javascript">
-			bkLib.onDomLoaded(function() { nicEditors.allTextAreas() }); 
+			bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
 
 			bkLib.onDomLoaded(function() {
 				new nicEditor().panelInstance('area1');
-			}); 
+			});
 
 			bkLib.onDomLoaded(function() {
 				new nicEditor({fullPanel : true}).panelInstance('area2');
-			}); 
+			});
 		</script>
 
 		@endif
@@ -1012,9 +993,9 @@
 		@if($rotaAtiva == 'Financeiro')
 		<script src="/js/tour.js"></script>
 		@endif
-		
+
 		@yield('javascript')
-		
+
 		<script>
 
 			jQuery(document).ready(function() {
@@ -1177,7 +1158,7 @@
 							console.log("sessao expirada")
 						}
 
-						
+
 					})
 					.fail((err) => {
 						console.log("erro ao buscar pedidos em aberto")
@@ -1210,7 +1191,7 @@
 			setInterval(() => {
 
 				v = <?php echo session('user_logged') ? session('user_logged')['id'] : 0 ?>;
-				
+
 				if(v > 0){
 					$.get(path+'pedidosDelivery/emAberto')
 					.done((data) => {
