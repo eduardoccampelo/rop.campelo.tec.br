@@ -261,19 +261,7 @@
 											</span>
 										</li>
 
-										<li class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
-											<a data-toggle="modal" href="#!" data-target="#modal-tema" class="label label-xl label-inline @if($tema == 1) label-light-warning @else label-warning @endif">
-												Tema
-											</a>
-										</li>
 
-										@if($rotaAtiva == 'Financeiro')
-										<li class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
-											<a id="clickTour" href="#!" data-target="#modal-tema" class="label label-xl label-inline label-light-success">
-												Tour
-											</a>
-										</li>
-										@endif
 									</ul>
 
 
@@ -588,47 +576,7 @@
 
 
 				</div>
-				<div class="modal fade" id="modal-tema" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdrop" aria-hidden="true">
-					<div class="modal-dialog modal-sm" role="document">
-						<form method="get" action="/usuarios/setTema">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title">TEMA</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										x
-									</button>
-								</div>
-								<div class="modal-body">
-									<div class="row">
-										<div class="form-group validated col-sm-12 col-lg-12 col-12">
-											<label class="col-form-label" id="">Tema</label>
-											<select class="form-control custom-select" name="tema">
-												<option @if($tema == 1) selected @endif value="1">Claro</option>
-												<option @if($tema == 2) selected @endif value="2">Escuro</option>
-											</select>
-										</div>
-									</div>
 
-									<div class="row">
-										<div class="form-group validated col-sm-12 col-lg-12 col-12">
-											<label class="col-form-label" id="">Menu lateral</label>
-											<select class="form-control custom-select" name="tema_menu">
-												<option @if($tema_menu == 1) selected @endif value="1">Indigo</option>
-												<option @if($tema_menu == 2) selected @endif value="2">Teal</option>
-												<option @if($tema_menu == 3) selected @endif value="3">Amber</option>
-												<option @if($tema_menu == 4) selected @endif value="4">Light</option>
-											</select>
-										</div>
-									</div>
-
-								</div>
-								<div class="modal-footer">
-									<button style="width: 100%" id="btn-cpf" type="submit" class="btn btn-success font-weight-bold spinner-white spinner-right">SALVAR</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
 				<script>var HOST_URL = "/metronic/theme/html/tools/preview";</script>
 				<script>
 					var KTAppSettings = {
